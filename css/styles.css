@@ -153,6 +153,12 @@ h1 {
 
 /* MEDIA QUERY */
 
+@media (orientation: landscape) and (max-device-width: 1100px) {
+    .main {
+        margin-top: 3rem;
+    }
+}
+
 @media screen and (max-width:767px) {
     .main {
         margin-top: 3rem;
