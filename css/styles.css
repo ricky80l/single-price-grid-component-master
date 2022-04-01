@@ -1,0 +1,170 @@
+@charset "UTF-8";
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem;
+}
+
+
+/* MAIN SECTION */
+
+.main {
+    max-width: 39rem;
+    font-weight: 400;
+}
+
+.container {
+    text-align: left;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.83);
+}
+
+.col-12,
+.col-md-6 {
+    padding: 1.8rem;
+}
+
+.col-12 {
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.ciano {
+    border-radius: 0 0 0 0.5rem;
+}
+
+.light-ciano {
+    border-radius: 0 0 0.5rem 0;
+}
+
+
+/* TOP PART */
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1.7rem;
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+}
+
+.type,
+.subtitle {
+    font-size: 1.3rem;
+    margin-bottom: 1.1em;
+}
+
+.subtitle {
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+}
+
+
+/* BOTTOM PART */
+
+.ciano {
+    background-color: hsl(179, 62%, 43%);
+}
+
+.light-ciano {
+    background-color: #4abebd;
+}
+
+.description {
+    color: hsl(218, 22%, 67%);
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    line-height: 1.8rem;
+}
+
+.price {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-right: 1rem;
+}
+
+.time {
+    color: #4abebd;
+}
+
+.type,
+.price,
+.subdesc {
+    color: hsl(204, 43%, 93%);
+}
+
+.mb10 {
+    margin-bottom: 1.8rem;
+}
+
+.subdesc {
+    color: #90ece9;
+}
+
+.description,
+.subdesc:nth-child(2) {
+    margin-bottom: 0;
+}
+
+.time {
+    color: #71dddf;
+}
+
+.singup {
+    width: 100%;
+    padding: 0.5rem 0;
+    margin-top: 1.6rem;
+    background-color: hsl(71, 73%, 54%);
+    color: hsl(204, 43%, 93%);
+    box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.43);
+    font-weight: 700;
+}
+
+.singup:hover {
+    color: hsl(179, 62%, 43%);
+    transition: 0.8s;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.43);
+}
+
+
+/* FOOTER SECTION */
+
+.attribution {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    font-size: 0.9rem;
+}
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width:767px) {
+    .main {
+        margin-top: 3rem;
+        width: 23.45rem;
+    }
+    .none {
+        display: none;
+    }
+    .ciano {
+        border-radius: 0;
+    }
+    .light-ciano {
+        border-radius: 0 0 0.5rem 0.5rem;
+    }
+}
