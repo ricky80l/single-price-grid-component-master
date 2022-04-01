@@ -20,6 +20,7 @@ body {
 .main {
     max-width: 39rem;
     font-weight: 400;
+    margin-top: 2rem;
 }
 
 .container {
@@ -152,12 +153,6 @@ h1 {
 
 
 /* MEDIA QUERY */
-
-@media (max-width: 1344px) and (orientation: landscape) {
-    .main {
-        margin-top: 3rem;
-    }
-}
 
 @media screen and (max-width:767px) {
     .main {
